@@ -1,0 +1,9 @@
+services:
+  qinglong:
+    image: whyour/qinglong:latest
+    ports:
+      - "5700"
+    volumes:
+      - data:/ql/data
+volumes:
+  data:
